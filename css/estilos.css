@@ -1,0 +1,269 @@
+/*************************BODY*************************/
+body{
+    background-color:#faead6
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/*************************HEADER*************************/
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+h1{
+    color: #91572d;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:20px 0px 5px 20px;
+
+}
+
+.navegador{
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    text-align: center;
+    padding: 25px;
+}
+
+li a{
+    padding: 5px;
+    font-size: 20px; 
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-decoration-line: none;
+}
+
+/*************************MAIN*************************/
+
+.banner-id{
+    margin: 5px 0px 20px 0px;
+}
+
+.datos{
+    display: flex;
+    justify-content: center;
+}
+
+.datos div{
+    display: flex;
+}
+
+.datos div h4{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    margin: 30px;
+}
+
+.datos div img{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.prodestacados h2{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 10px 5px 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.prodestacados div{
+    display: flex;
+    justify-content:space-around ;
+}
+
+.prodestacados article{
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 15px;
+    text-align: center;
+}
+
+.prodestacados article a{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  margin 20px;
+  text-decoration: none;
+}
+
+.prodestacados article img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.formularios{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 15px;
+    border: #91572d solid 5px;
+}
+
+.nombrefor{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.numeroform{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.emailform{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.consulform{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.encontranos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+.calabaza{
+    display: flex;
+    justify-items: start;
+}
+
+.secccurado{
+    display: inline;
+    text-align: center;
+}
+
+.calabaza{
+    text-align: center;
+    align-items: center;
+}
+.calabaza img{
+    width: 50%;
+    padding: 30px;
+}
+
+.calabaza p{
+    font-size: 23px;
+    line-height: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.madera{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.madera p{
+    font-size: 23px;
+    line-height: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.madera img{
+    width: 25%;
+}
+.madera p{
+    font-size: 26px;
+    line-height: 36px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.gridpro{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    gap: 10px;
+    padding: 6px;
+}
+
+.gridpro img{
+    width: 100%;
+    height: 100%;
+}
+
+.itemgrid{
+    border: solid black;
+    background-color: #fff5c2;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.img-1{
+    grid-column: span 2;
+}
+
+.img-2{
+    grid-row: span 2;
+}
+
+.img-5{
+    grid-column: span 2;
+}
+
+.nosotross{
+    flex-wrap: wrap;
+}
+
+.nosotross h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotross p{
+    font-size: 17;
+}
+/************************FOOTER*************************/
+footer{
+    background-color: #f6d6ad;
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer section{
+    margin: 10px;
+}
+
+footer section h3{
+    border: #fff5c2 2px solid;
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.contactanos img{
+    width: 25px;
+}
